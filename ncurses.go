@@ -5,6 +5,7 @@
 
 package goncurses
 
+// #cgo !windows pkg-config: ncurses
 // #cgo !windows LDFLAGS: -lncursesw
 // #cgo windows CFLAGS: -DNCURSES_MOUSE_VERSION
 // #cgo windows LDFLAGS: -lpdcurses
